@@ -159,14 +159,12 @@ header {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  border: 1px solid black;
 }
 nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 70%;
-  border: 1px solid blue;
 }
 a {
   text-decoration: none;
@@ -174,7 +172,6 @@ a {
 }
 .logo {
   display: flex;
-  border: 1px solid green;
 }
 .top-content {
   display: flex;
@@ -205,6 +202,8 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   padding: 30px 0px;
+  border-bottom: 1px solid black;
+  margin: 0px 0px 30px 0px;
 }
 footer {
   </div>padding: 30px;
@@ -306,6 +305,10 @@ button {
     flex-direction: column-reverse;
     justify-content: center;
   }
+  .logoIMG {
+    display: flex;
+    justify-content: center;
+  }
   nav {
     width: 100%;
     margin: 20px 0px;
@@ -315,6 +318,12 @@ button {
   }
   .top-content-right {
     display: none;
+  }
+  .middle-img {
+    width: 100%;
+  }
+  body {
+    margin: 20px;
   }
 }
 
@@ -326,6 +335,7 @@ button {
     justify-content: center;
   }
   nav {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -333,7 +343,7 @@ button {
   }
   nav a {
     width: 90%;
-    padding: 10px;
+    padding: 10px 0px 10px 150px;
     border-bottom: 1px solid grey;
   }
   .middle-content {
