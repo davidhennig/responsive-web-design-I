@@ -182,6 +182,10 @@ a {
 }
 .top-content-left {
   text-align: center;
+  padding: 50px;
+}
+.top-content-right {
+  padding: 50px 10px 50px 100px;
 }
 h2 {
   font-size: 70px;
